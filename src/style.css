@@ -36,3 +36,19 @@ h4 {
 a {
   text-decoration: none;
 }
+
+div {
+  display: block;
+}
+
+.day-weather {
+  text-align: center;
+}
+
+.day-weather > .info {
+  font-size: small;
+}
+
+.city {
+  font-size: small;
+}
