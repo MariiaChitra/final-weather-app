@@ -47,15 +47,16 @@
             <div class="row">
                 <div class="col-6">
                     <h2 id="city"></h2>
-                    <h3 id="description"></h3>
-                    <img src="" alt="Sunny" id="icon" class="float-left" />
+                    <div class="weather-description" id="description"> Sunny </div>
+
+                    <img src="" alt="Sunny" id="icon" />
                     <div class="float-left">
-                        <strong id="temp"></strong><span class="units"><a href="#" id="celsius-link"
-                                class="active">°C</a> / <a href="#" id="fahrenheit-link">°F</a>
+                        <strong id="temp"></strong><span class="units">
+                            <a href="#" id="celsius-link" class="active">°C</a> / <a href="#"
+                                id="fahrenheit-link">°F</a>
                         </span>
                     </div>
                     <h5 class="current-time-date"></h5>
-
 
                 </div>
                 <div class="col-6">
@@ -70,7 +71,7 @@
                                         <h5>Humidity:<span id="humidity"></span>%</h5>
                                     </li>
                                     <li>
-                                        <h5>Wind:<span id="wind"></span>km/h</h5>
+                                        <h5>Wind speed:<span id="wind"></span>km/h</h5>
                                     </li>
                                 </ul>
                             </div>
@@ -79,76 +80,8 @@
                 </div>
             </div>
             <br />
-            <div class="row">
-                <div class="col">
-                    <div class="row">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Mon</h5>
-                            <br />🌤
-                            <h5 class="card-subtitle mb-2 text-muted"></h5>
-                            <p class="card-text">+22°C</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Tue</h5>
-                            <br />☀️
-                            <h5 class="card-subtitle mb-2 text-muted"></h5>
-                            <p class="card-text">+23°C</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Wed</h5>
-                            <br />☀️
-                            <h5 class="card-subtitle mb-2 text-muted"></h5>
-                            <p class="card-text">+22°C</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Thu</h5>
-                            <br />☀️
-                            <h5 class="card-subtitle mb-2 text-muted"></h5>
-                            <p class="card-text">+21°C</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Fri</h5>
-                            <br />☀️
-                            <h5 class="card-subtitle mb-2 text-muted"></h5>
-                            <p class="card-text">+21°C</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Sat</h5>
-                            <br />☀️
-                            <h5 class="card-subtitle mb-2 text-muted"></h5>
-                            <p class="card-text">+24°C</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Sun</h5>
-                            <br />🌤
-                            <h5 class="card-subtitle mb-2 text-muted"></h5>
-                            <p class="card-text">+19°C</p>
-                        </div>
-                    </div>
+            <div class="box">
+                <div id="forecast">
                 </div>
             </div>
             <br />
