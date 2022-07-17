@@ -92,6 +92,11 @@ function displayWeatherDetails(response) {
   let dateElement = document.querySelector("#date");
   let iconElement = document.querySelector("#icon");
 
+  let fahrenheit = document.querySelector("#fahrenheit-link");
+  let celcius = document.querySelector("#celsius-link");
+  celcius.addEventListener("click", convertC);
+  fahrenheit.addEventListener("click", convertF);
+
   celsiusTemperature = response.data.main.temp;
 
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
