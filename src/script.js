@@ -61,7 +61,7 @@ function displayForecast(response) {
         `<div class="days">
         <div${getDay(forecastDay.dt)}</div>
         <img
-          src="http://openweathermap.org/img/wn/${
+          src=" http://openweathermap.org/img/wn/${
             forecastDay.weather[0].icon
           }@2x.png"
           alt="weather"
@@ -152,6 +152,7 @@ replaceLocation.addEventListener("submit", displayWeather);
 let currentLocationButton = document.querySelector("#current_city");
 currentLocationButton.addEventListener("click", actualPlaceLocation);
 searchPlace("Bat Yam");
+
 //Temperature changing code
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
